@@ -12,6 +12,7 @@ Ce projet est une mini application Todo développée avec React. Il a pour but d
 
 - Node.js
 - npm (ou yarn)
+- tailwind (optionnel)
 
 ## Installation
 

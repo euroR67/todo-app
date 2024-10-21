@@ -6,6 +6,8 @@ function App() {
     // Déclaration des états pour les todos et le champ de saisie
   const [todos, setTodos] = useState([]); // Liste des todos
   const [inputValue, setInputValue] = useState(''); // Valeur de l'entrée utilisateur
+
+  // Fonction ajouter un todo
   const handleSubmit = (e) => {
     e.preventDefault();
     if (inputValue.trim() === '') return; // Vérifier si l'entrée est vide
