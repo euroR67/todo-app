@@ -39,6 +39,8 @@ function App() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600 p-6">
     <div className="w-full max-w-md bg-white rounded-lg shadow-lg p-6">
       <h1 className="text-4xl font-bold text-center text-gray-800 mb-6">Todo App</h1>
+      <p>Total Todos: {todos.length}</p>
+<p>Completed Todos: {todos.filter(todo => todo.completed).length}</p>
       <form onSubmit={handleSubmit} className="flex mb-6">
         <input
           type="text"
